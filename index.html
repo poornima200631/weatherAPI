@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherAPI</title>
+    <link rel="icon" href="images/favicon.jpeg">
+    <link rel="stylesheet" href="style.css">
+   
+
+   
+</head>
+<body>
+    <h1>Weather App⛅️</h1>
+    <div class="tab">
+       
+        <form class="search-form">
+            <input type="text" id="search" name="a" placeholder="Enter city">
+            <button type="submit" class="search-btn" onclick="getWeather()">🔍</button>
+          </form>
+          
+     <img src="images/cloud.png" style="position: absolute; height: 220px;margin-bottom: 45%;">
+     <p style="color: black;position:absolute;font-size: xx-large;font-style: italic;" id="temperature">Temperature🌡️</p>
+     <p style="color: black;position:absolute;font-size: xx-large;font-style: italic;margin-top: 150px;">City</p>
+     <p style="color: black;position:absolute;font-size: xx-large;font-style: italic;margin-top: 80%;margin-right: 67%;" id="humidity">Humidity</p>
+     <p style="font-size: xxx-large;position:absolute;margin-top: 100%;margin-right: 67%;">💦</p>
+     <p style="color: black;position:absolute;font-size: xx-large;font-style: italic;margin-top: 80%;margin-left: 62%;" id="wind">Wind speed</p>
+     <p style="font-size: xxx-large;position:absolute;margin-top: 100%;margin-left: 62%;">🌬️</p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
