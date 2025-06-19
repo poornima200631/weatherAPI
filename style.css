@@ -80,4 +80,32 @@ html, body {
     justify-content: center;
   }
   
+  @media (max-width: 600px) {
+    .tab {
+      padding: 15px;
+    }
+  
+    #search {
+      width: 100%;
+      font-size: 1rem;
+    }
+  
+    .search-form {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .search-btn {
+      width: 100%;
+      border-radius: 10px;
+    }
+  
+    #temperature,
+    #humidity,
+    #wind,
+    #city {
+      font-size: 1.2rem;
+      text-align: center;
+    }
+  }
   
